@@ -1,0 +1,42 @@
+@import '../../../styles/variables';
+
+.navbar {
+    height: 84px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+    .navbar_items {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 16px;
+
+        .nav_item {
+            padding: 0px 16px;
+            color: $neutral_700;
+            text-decoration: none;
+        }
+
+        .navbar_button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 20px;
+            gap: 4px;
+            width: 138px;
+            height: 44px;
+            background: $primary_600;
+            font-feature-settings: 'liga' off;
+            color: $white;
+            margin: 0;
+            padding: 0;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+}

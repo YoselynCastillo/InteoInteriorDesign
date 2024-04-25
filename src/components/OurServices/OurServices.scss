@@ -1,0 +1,50 @@
+@import '../../styles/variables';
+
+.our_services {
+    width: 100%;
+    padding: 112px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+    }
+
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+
+        .service_item {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 40px;
+            gap: 80px;
+            border: 1px solid $primary_100;
+
+            .service_content {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+
+                .service_title {
+                    color: $neutral_900;
+                    width: 90%;
+                }
+
+                .service_description {
+                    font-feature-settings: 'liga' off;
+                    color: $neutral_700;
+                }
+            }
+        }
+    }
+}

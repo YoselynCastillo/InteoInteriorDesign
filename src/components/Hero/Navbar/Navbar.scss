@@ -18,6 +18,10 @@
             padding: 0px 16px;
             color: $neutral_700;
             text-decoration: none;
+
+            @media (max-width: 600px) {
+                display: none;
+            }
         }
 
         .navbar_button {

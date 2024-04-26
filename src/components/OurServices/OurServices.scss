@@ -2,15 +2,35 @@
 
 .our_services {
     width: 100%;
-    padding: 112px 0px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     display: flex;
     flex-direction: column;
     gap: 80px;
+    
+    @media (max-width: 1024px) {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    @media (max-width: 760px) {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        gap: 40px;
+    }
 
     .content {
         display: flex;
         flex-direction: column;
         gap: 24px;
+
+        h2 {
+            color: $neutral_900;
+
+            @media (max-width: 760px) {
+                font-size: 36px;
+                line-height: 48px;
+            }
+        }
 
     }
 
@@ -19,6 +39,16 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 32px;
+
+        @media (max-width: 1280px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 1024px) {
+            grid-template-columns: 1fr;
+            column-gap: 0;
+            row-gap: 32px;
+        }
 
         .service_item {
             box-sizing: border-box;
@@ -29,6 +59,10 @@
             gap: 80px;
             border: 1px solid $primary_100;
 
+            @media (max-width: 760px) {
+                gap: 24px;
+            }
+
             .service_content {
                 display: flex;
                 flex-direction: column;
@@ -38,6 +72,12 @@
                 .service_title {
                     color: $neutral_900;
                     width: 90%;
+
+
+                    @media (max-width: 760px) {
+                        font-size: 30px;
+                        line-height: 40px;
+                    }
                 }
 
                 .service_description {

@@ -7,7 +7,7 @@ const HeroImageCTA = () => {
             <div className="get_in_touch_cta">
                 <img src="src\assets\get-in-touch-cta.svg" alt="" />
             </div>
-            <img src="src\assets\images\hero-image.png" alt="" />
+            <img className="hero_image" src="src\assets\images\hero-image.png" alt="" />
         </div>
     )
 }

@@ -7,24 +7,36 @@
     justify-content: center;
     gap: 24px;
     width: 100%;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    @media (max-width: 760px) {
+        padding: 0px 20px;
+    }
+
     h1,
     p {
-        display: flex;
-        align-items: center;
         text-align: center;
-        margin: 0;
+
+        @media (max-width: 760px) {
+            font-size: 18px;
+            line-height: 32px;
+        }
     }
-    
+
     h1 {
         width: fit-content;
-        height: 96px;
         color: $neutral_900;
+
+        @media (max-width: 760px) {
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+
     }
-    
+
     p {
         max-width: 800px;
-        height: 64px;
         color: $neutral_700;
     }
 }
-

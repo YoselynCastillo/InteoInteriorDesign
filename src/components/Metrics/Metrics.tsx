@@ -9,7 +9,7 @@ const Metrics = () => {
             </div>
             <div className="metric">
                 <span className="metric_value display_xl_regular">250</span>
-                <span className="metric_text body_sm_regular">EMPLOYEES <br />ON WORLDWIDE</span>
+                <span className="metric_text body_sm_regular">EMPLOYEES ON <br /> WORLDWIDE</span>
             </div>
             <div className="metric">
                 <span className="metric_value display_xl_regular">3469</span>

@@ -20,8 +20,8 @@ const AboutUs = () => {
             </div>
             <div className="img_content">
                 <img className="img_badge" src="src\assets\design-studio.svg" alt="" />
-                <img className="img_to_top" src="src\assets\images\img1.png" alt="" />
-                <img className="img_to_bottom" src="src\assets\images\img2.png" alt="" />
+                <img className=" img_about img_to_top" src="src\assets\images\img1.png" alt="" />
+                <img className=" img_about img_to_bottom" src="src\assets\images\img2.png" alt="" />
             </div>
         </div>
     )

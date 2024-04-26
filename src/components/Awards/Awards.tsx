@@ -35,8 +35,10 @@ const Awards = () => {
     return (
         <div className="Awards">
             <div className="desktop_container awards_container">
-                <span className="award_text display_xs_regular">Awards</span>
-                <div className="line" />
+                <div className="awards_header">
+                    <span className="award_text display_xs_regular">Awards</span>
+                    <div className="line" />
+                </div>
                 <div className="awards_list">
                     {awards.map((award, key) => (
                         <div className="award_item" key={key}>

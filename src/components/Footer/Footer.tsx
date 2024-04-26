@@ -53,10 +53,12 @@ const Footer = () => {
                         <span className="body_sm_semibold">CONNECT</span>
                         <div className="line" />
                     </div>
-                    <img src="src/assets/ig_icon.svg" alt="" />
-                    <img src="src/assets/fb_icon.svg" alt="" />
-                    <img src="src/assets/yt_icon.svg" alt="" />
-                    <img src="src/assets/twitter_icon.svg" alt="" />
+                    <div className="icons">
+                        <img src="src/assets/ig_icon.svg" alt="" />
+                        <img src="src/assets/fb_icon.svg" alt="" />
+                        <img src="src/assets/yt_icon.svg" alt="" />
+                        <img src="src/assets/twitter_icon.svg" alt="" />
+                    </div>
                 </div>
             </div>
 
